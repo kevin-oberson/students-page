@@ -1,0 +1,206 @@
+media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("images/images-forum.css");
+@import url("css/buttons.css");
+
+.banner-blue {
+	background: #122130;
+	height: 80px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+.list-inline {
+
+	display: flex;
+  margin-left: 28px;
+  align-items: center;
+
+}
+
+#img-top-left {
+
+  margin: 25px 0px;
+  max-width: 30px;
+  max-height: 30px;
+}
+#img-top-center {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+#img-top-right{
+  margin-right: 25px;
+}
+.fond-gris{
+  background-color: #F2F2F2;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 700px;
+}
+.contenu{
+  text-align: -webkit-center;
+  margin-left: -15%;
+}
+h2{
+    font-family: "Helvetica";
+    font-size: 32px;
+    color: #122130;
+    display: flex;
+    margin-left: 12%;
+    margin-right: 5%;
+    justify-content: center;
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+.headers{
+  max-width: 882px;
+      display: flex;
+    align-items: center;
+      margin-left: 12%;
+  margin-right: 5%; 
+}
+
+.btn-orange1{
+ border-width: 10px;
+ background-color: #F2F2F2;
+ text-decoration: none;
+ font-weight: bolder;
+ padding: 2px 4px;
+ color: #122130;
+ font-family: "Lora";
+ font-size: 16px;
+ border-color: #122130;
+ border-style: solid;
+ border-width: 4px;
+ margin-left: 5%;
+
+ }
+.btn-orange2{
+ border-width: 10px;
+ background-color: #F2F2F2;
+ text-decoration: none;
+ font-weight: bolder;
+ padding: 2px 4px;
+ color: #122130;
+ font-family: "Lora";
+ font-size: 16px;
+ border-color: #122130;
+ border-style: solid;
+ border-width: 4px;
+ margin-left: 225px;
+}
+h1{
+  font-family: "Lora";
+  font-size: 16px;
+  font-weight: lighter;
+  color: lightgrey;
+}
+#research{
+padding: 2px 4px;
+background-color: white;
+border-color: #122130;
+border-width: 1px;
+border-style: solid;
+margin-left: 165px;
+
+}
+#search-button{
+margin-left: 10px;
+padding: 2px 4px;
+background-color: white;
+border-color: #122130;
+border-width: 1px;
+border-style: solid;
+text-decoration: none;
+color: black;
+font-family: "Lora";
+font-size: 16px;
+font-weight: bolder;
+}
+
+
+#en-tete{
+  
+  margin-top: 25px;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 3%; 
+  padding-bottom: 45px;
+  max-width: 882px;
+}
+h3{
+  position : absolute;
+  color: #122130;
+  font-family: "Roboto";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#topic{
+padding-top: 4px;
+margin-left: 8px;
+  } 
+#author{
+  padding-top: 4px;
+margin-left: 570px;
+  }
+#replies{
+  padding-top: 4px;
+margin-left: 695px;
+  }
+#last-message{
+  padding-top: 4px;
+margin-left: 780px;
+  }
+
+
+
+.lignes-impaires{
+  background-color: #A4E9D3;
+  margin-left: 10%;
+  margin-right: 3%; 
+  padding-bottom: 34px;
+  max-width: 882px;
+}
+#column1{
+margin-left: 8px;
+}
+#column2{
+margin-left: 570px;
+  }
+#column3{
+margin-left: 695px;
+  }
+#column4{
+margin-left: 780px;
+  }
+
+.lignes-paires{
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 3%; 
+  padding-bottom: 34px;
+  max-width: 882px;
+}
